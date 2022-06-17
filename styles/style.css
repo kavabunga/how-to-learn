@@ -70,14 +70,6 @@
   z-index: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .logo_place_header {
   width: 228px;
   height: 32px;
@@ -88,17 +80,16 @@
 }
 
 .description {
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
 
 .two-columns {
-  padding-top: 100px;
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .two-columns__brief {
@@ -132,4 +123,100 @@
 
 .two-columns__span-accent {
   font-weight: 700;
+}
+
+.digits {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-title_theme_light {
+  color: #000000;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.section-subtitle_space_20 {
+  margin-top: 20px;
+}
+
+.section-subtitle_theme_light {
+  color: #000000;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table_align_center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.table__cell_theme_light {
+  width: 250px;
+  color: #000000;
+  margin-top: 60px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
+}
+
+.table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.table__text {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
