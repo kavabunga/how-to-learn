@@ -1,0 +1,7 @@
+.table__heading_theme_dark {
+  counter-increment: new-counter;
+}
+
+.table__heading_theme_dark::before {
+  content: counter(new-counter);
+}
