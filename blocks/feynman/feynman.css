@@ -1,5 +1,6 @@
 .feynman {
   position: relative;
+  width: 100%;
   padding-top: 100px;
   background: url(../../../images/feynman.png) #f2f2f2 bottom left no-repeat;
   min-height: 890px;
