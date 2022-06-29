@@ -1,5 +1,4 @@
 .video__iframes {
-  position: relative;
   display: flex;
   gap: 20px;
 }
