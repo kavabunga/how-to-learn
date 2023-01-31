@@ -11,4 +11,6 @@ One-page landing with varous learning practice examples and thoughts on educatio
 
 Website uses **Flexbox** and **Grid** layouts. Browser styles are overwritten by [**normalize.css**](https://necolas.github.io/normalize.css/).
 
-@kavabunga / @Yandex-Practicum
+## Author
+
+Semen Katz, [@kavabunga](https://github.com/kavabunga)
