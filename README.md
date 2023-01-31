@@ -1,7 +1,14 @@
-# Научиться учиться
+# :book: Learn to learn
 
-Одностраничный сайт про различные подходы к обучению, созданный как учебный проект курса веб-разработки в Яндекс.Практикуме.
+One-page landing with varous learning practice examples and thoughts on education process. The project made during "WEB-development" course at [Yandex.Practicum](https://practicum.yandex.ru/ "Yandex Practicum")
 
-На сайте применяются технологии разметки [flexbox](https://www.doka.guide/css/flexbox-guide/ "Гайд по flexbox на Доке") и [grid](https://www.doka.guide/css/grid-guide/ "Гайд по grid на Доке").
+## Languages
 
-Также, для сброса стилей браузеров используется плагин [normalize.css](https://necolas.github.io/normalize.css/).
+- **HTML**
+- **CSS**
+
+## Technology
+
+Website uses **Flexbox** and **Grid** layouts. Browser styles are overwritten by [**normalize.css**](https://necolas.github.io/normalize.css/).
+
+@kavabunga / @Yandex-Practicum
